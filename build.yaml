@@ -19,13 +19,13 @@
 ---
 include:
   - board: pillbug
-    shield: chalice
+    shield: obe
 include:
   - board: pillbug
-    shield: chalice
+    shield: obe
 include:
   - board: pillbug
-    shield: chalice
+    shield: obe
 include:
   - board: pillbug
-    shield: chalice
+    shield: obe
