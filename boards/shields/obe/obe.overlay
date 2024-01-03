@@ -58,7 +58,7 @@
         a-gpios = <&blackpill 40 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         b-gpios = <&blackpill 41 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         steps = <80>;
-        status = "disabled";
+        status = "enabled";
     };
 
     sensors {
