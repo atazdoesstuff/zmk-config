@@ -60,7 +60,7 @@
                 &kp PG_UP  &kp TAB   &kp Q    &kp W    &kp E  &kp R     &kp T  &kp Y     &kp U  &kp I    &kp O     &kp P    &kp LBKT  &kp RBKT         &kp BSLH
                 &kp PG_DN  &kp CAPS     &kp A    &kp S    &kp D  &kp F     &kp G  &kp H     &kp J  &kp K    &kp L     &kp SEMI &kp APOS                   &kp ENTER
                            &kp LSHFT &kp Z    &kp X    &kp C  &kp V     &kp B  &kp B     &kp N  &kp M    &kp COMMA &kp DOT  &kp FSLH       &kp UP       &kp RSHFT
-                           &kp LCTRL &kp LGUI &kp LALT        &kp SPACE &mo 1  &kp SPACE        &kp RALT &kp RCTRL          &kp LEFT  &kp DOWN  &kp RIGHT
+                           &kp LCTRL &kp LGUI &kp LALT        &kp SPACE &tog 1  &kp SPACE        &kp RALT &kp RCTRL          &kp LEFT  &kp DOWN  &kp RIGHT
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
@@ -72,7 +72,7 @@
                 &bootloader &trans   &bt BT_SEL 0 &bt BT_SEL 1    &bt BT_SEL 2    &bt BT_SEL 3 &trans &trans &trans &trans &trans &trans  &trans   &trans            &trans
                 &bt BT_NXT  &trans &kp KP_NUM   &kp SLCK        &trans          &trans       &trans &trans &trans &trans &trans &trans  &trans                     &trans
                             &trans   &trans       &bt BT_CLR      &trans          &trans       &trans &trans &trans &trans &trans &trans  &trans   &kp PG_UP         &trans
-                            &trans   &trans  &rgb_ug RGB_BRD &rgb_ug RGB_EFR &ext_power EP_TOG &rgb_ug RGB_EFF  &rgb_ug RGB_BRI   &trans  &kp HOME &kp PG_DN &kp END
+                            &trans   &trans  &rgb_ug RGB_BRD &rgb_ug RGB_EFR &ext_power EP_TOG &tog 1 RGB_EFF  &rgb_ug RGB_BRI   &trans  &kp HOME &kp PG_DN &kp END
             >;
             sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
         };
